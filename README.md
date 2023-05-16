@@ -1,7 +1,5 @@
 # 🧮 Constructor of calculator 
 
-## 📄 Description
-
 This is a drag-and-drop constructor with which you can build a calculator.
 
 ## 🪄 Features
