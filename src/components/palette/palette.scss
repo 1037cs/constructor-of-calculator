@@ -1,0 +1,29 @@
+.palette {
+  width: 240px;
+  height: 438px;
+  user-select: none;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+
+  &-item{
+    width: 100%;
+
+    padding: 4px;
+
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.06), 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+
+    &_disable {
+      opacity: 0.4;
+      pointer-events: none;
+
+      box-shadow: none;
+      border-radius: 0;
+    }
+
+    .display__counter {
+      display: none;
+    }
+  }
+}

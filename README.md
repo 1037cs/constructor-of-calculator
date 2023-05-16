@@ -1,0 +1,4 @@
+- TypeScript, React
+- redux + redux toolkit
+- scss
+- eslint

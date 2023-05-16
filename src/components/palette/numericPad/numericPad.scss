@@ -1,0 +1,10 @@
+.numeric-pad {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+}
+
+.numeric-button:nth-child(10) {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
